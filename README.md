@@ -4,3 +4,4 @@ My new suckless dotfiles including st, dwm, slstatus.
 - St is Luke Smith's build with the font modified to Monocraft
 - Rofi and St are compatible with pywal, but I set dwm manually to avoid patching more
 - I also included the wallpaper I use, and my rofi config(it's basically just pywal compatibility)
+- ![image](https://i.imgur.com/qgboH6t.png)
