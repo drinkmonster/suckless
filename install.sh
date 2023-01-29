@@ -9,18 +9,18 @@ echo "Do you want a compositor? y/n"
 read comp
 echo "Installing git, rofi, pywal, and discord"
 sudo pacman -Syu git rofi discord python-pywal
-echo "Getting paru..."
+echo "Getting paru -S..."
 git clone https://aur.archlinux.org/paru.git
 cd paru
 makepkg -si
 cd ..
 echo "Installing Monocraft font..."
-paru otf-monocraft
+paru -S otf-monocraft
 echo "Installing Spotify..."
-paru spotify
+paru -S spotify
 if echo $comp = "y"; then
   echo "Installing picom-jonaburg..."
-  paru picom-jonaburg
+  paru -S picom-jonaburg
   mkdir ~/.config/picom/
   cp picom.conf ~/.config/picom/
 fi
